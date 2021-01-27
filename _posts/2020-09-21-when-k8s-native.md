@@ -17,13 +17,25 @@ Even without considering the speed of delivery, as the codebase and number of en
 
 ## What are your options?
 
-Would you like some orange juice?  
+> Would you like some orange juice?   
+
+
 –> Sure!  
-Organic or regular?  
+
+
+> Organic or regular?  
+
+
 –> Regular.  
-With or without added calcium?  
+
+
+> With or without added calcium?  
+
+
 –> With calcium pls.  
-No pulp, some pulp or lots of pulp? Brand-name or no-name? Would you like it cold or normal temperature?  
+
+
+> No pulp, some pulp or lots of pulp? Brand-name or no-name? Would you like it cold or normal temperature?  
 
 Whether it’s a consumer product or a software product, MORE is not always helpful. Having choices is good but too many choices can lead to confusion. If you’re trying to find the right open-source CI/CD tool for your team, [these](https://landscape.cncf.io/category=continuous-integration-delivery&format=card-mode&grouping=category) are your options (and more projects are added every month).
 
