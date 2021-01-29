@@ -3,6 +3,8 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hello! I’m Dewan Ahmed, and I’m a software engineer and open-source developer advocate at Red Hat. Before starting at Red Hat, I have worked at IBM for six years as a developer, QA lead, consultant and developer advocate.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Besides work, I offer career coaching to students, newgrads and professionals who are trying to transition to the software industry. This site serves my blog, where I share my technical experience, articles on career as well as some random thoughts. 
+
+When I’m not working, I spend quality time with my wife and toddler 👨‍👩‍👦 and play 🎱.
