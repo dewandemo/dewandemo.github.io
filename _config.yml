@@ -56,9 +56,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Dewan Ahmed"
   avatar : "/assets/images/IBM_100_1002112731.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I love to learn, build and share my experiences."
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
