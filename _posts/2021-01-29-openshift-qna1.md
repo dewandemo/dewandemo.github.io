@@ -12,7 +12,9 @@ Few weeks ago, I gave an IBM-internal talk on [OpenShift](https://www.openshift.
 
 > Is OpenShift same as Kubernetes?
 
-If Kubernetes is the engine, OpenShift is the car. At the heart of OpenShift IS Kubernetes, and that it is a [100% certified Kubernetes](https://www.cncf.io/certification/software-conformance/), fully open source and non-proprietary, which means:
+If Kubernetes is the engine, OpenShift is the car. Just like you cannot drive using the engine itself, you'll need a bunch of other services (for monitoring, storage etc.) alongside container orchestration (a.k.a. Kuberentes). A number of these essential services come out of the box with OpenShift and you have the option to [install more](https://docs.openshift.com/container-platform/4.1/applications/operators/olm-understanding-operatorhub.html) based on your project needs.  
+
+At the heart of OpenShift IS Kubernetes, and that it is a [100% certified Kubernetes](https://www.cncf.io/certification/software-conformance/), fully open source and non-proprietary, which means:
 - The API to the OpenShift  cluster is 100% Kubernetes.
 - Nothing changes between a container running on any other Kubernetes and running on OpenShift. No changes to the application.
 For a more detailed answer, you can read [this excellent blog](https://www.openshift.com/blog/whats-the-difference-between-openshift-and-kubernetes) by my colleague Alex Handy.
