@@ -40,3 +40,5 @@ Usually 443 or 80 unless you are doing [NodePort](https://docs.openshift.com/con
 > How many apps/pods should I run per OpenShift project?
 
 This is another _it depends_ answer.  [OpenShift Docs](https://docs.openshift.com/container-platform/3.9/scaling_performance/cluster_limits.html) indicates cluster limits which are the maximum numbers but whether anything below that is going to be "usable" is going to depend a lot on the app(s) in question.
+
+These were the 7 answers of the 7 questions I took away from my talk. The 8th answer is my own learning over the recent years: whether we're maintaining a legacy system or choosing a shiny new tool, we should always keep the end-user in mind when making technical decisions. At the end, it's their experience with the product that matters.
