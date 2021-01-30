@@ -7,7 +7,7 @@ tags:
   - OpenShift
   - Kubernetes
 image:
-  feature: assets/images/feature-image.jpg
+  feature: assets/images/feature-image.JPG
   thumb: assets/images/thumbnail-image.jpg   
 ---
 
