@@ -4,8 +4,8 @@ date: 2021-04-08T22:50:00-04:00
 categories:
   - Blog
 tags:
-  - Career
-  - Resume
+  - career
+  - resume
 ---
 
 > Seeking an entry-level software engineering role to begin my career in a challenging environment.

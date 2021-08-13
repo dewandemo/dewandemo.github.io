@@ -6,7 +6,7 @@ categories:
   - Blog
 tags:
   - career
-  - future of work
+  - future-of-work
 ---
 
 > It’s tough to make predictions, especially about the future (Yogi Berra)

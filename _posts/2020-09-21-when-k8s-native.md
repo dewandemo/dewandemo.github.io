@@ -5,9 +5,9 @@ author: Dewan Ahmed
 categories:
   - Blog
 tags:
-  - Kubernetes
-  - DevOps
-  - CICD
+  - kubernetes
+  - devops
+  - cicd
 ---
 
 ## Why CI/CD?

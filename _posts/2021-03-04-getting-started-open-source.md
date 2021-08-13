@@ -4,8 +4,8 @@ date: 2021-03-04T22:50:00-04:00
 categories:
   - Blog
 tags:
-  - Open Source
-  - Community
+  - open-source
+  - community
 ---
 
 Recently, a student reached out to me and asked:
