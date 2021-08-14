@@ -8,3 +8,5 @@ title: "About"
 Enough about work! Besides work, I offer career coaching to students, newgrads and professionals who are trying to transition to the software industry. This site serves my blog, where I share my technical experience, articles on career as well as some random thoughts. 
 
 When I’m not working, I spend quality time with my wife and toddler 👨‍👩‍👦 and play 🎱.
+
+<script src="https://gist.github.com/dewandemo/2e55908e4e85398c6dd3e7bcd33e0053.js"></script>
