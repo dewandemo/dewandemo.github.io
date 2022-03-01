@@ -1,11 +1,8 @@
 ---
 title: "How to write an amazing resume summary statement"
 date: 2021-04-08T22:50:00-04:00
-categories:
-  - Blog
 tags:
-  - Career
-  - Resume
+  - career
 twitter:
   image: /assets/images/resume-summary.jpg
   card: summary
