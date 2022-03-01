@@ -117,7 +117,7 @@ A UX Researcher’s primary job is to understand the target market so the UX des
 
 **Data Scientist, Data Engineer, and Data Analyst**
 
-If you're hiring for an entry-level person, you're probably looking for a Data Analyst. Common tasks done by data analysts include data cleaning, performing analysis and creating data visualizations. A Data Scientist is a specialist who uses statistics and machine learning to answer key business questions. A Data Engineer builds and optimizes the systems that allow Data Scientists and Data Analysts to perform their work. Unlike the previous two roles, data engineering leans a lot more toward a software development skill set. [This tweet](https://twitter.com/MyTechBF/status/1448308288639152132?s=20&t=eGj0DiunCBZy8D_k5h81Cw) adds a nice visual comparison among these three roles:
+If you're hiring for an entry-level person, you're probably looking for a Data Analyst. Common tasks done by data analysts include data cleaning, performing analysis and creating data visualizations. A Data Scientist is a specialist who uses statistics and machine learning to answer key business questions. A Data Engineer builds and optimizes the systems that allow Data Scientists and Data Analysts to perform their work. Unlike the previous two roles, data engineering leans a lot more toward a software development skill set. [This tweet](https://twitter.com/RealSaintSteven/status/1257781619584270337?s=20&t=LEJQUFBgt0JNvNzTfc3xQg) adds a nice visual comparison among these three roles:
 
 ![data-roles](../assets/images/data-roles.jpeg)
 
