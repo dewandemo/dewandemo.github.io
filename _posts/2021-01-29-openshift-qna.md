@@ -7,7 +7,7 @@ tags:
   - kubernetes
 ---
 
-Few years ago, I gave an IBM-internal talk on [OpenShift](https://www.openshift.com/). During my favorite part of the talk (the Q&A), a number of good questions came up. I took away some of the questions I didn't have answers for, as a to-do and gathered answers from my Red Hat colleagues. This blog is a collection of those questions and their answers as the information would be useful to many others. 
+Few years ago, I gave an IBM-internal talk on [OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift). During my favorite part of the talk (the Q&A), a number of good questions came up. I took away some of the questions I didn't have answers for, as a to-do and gathered answers from my Red Hat colleagues. This blog is a collection of those questions and their answers as the information would be useful to many others. 
 
 ![Photo by Edwin Andrade on Unsplash](/assets/images/openshift-questions-image.jpg)
 
