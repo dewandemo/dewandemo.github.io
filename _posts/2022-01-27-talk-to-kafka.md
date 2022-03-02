@@ -5,11 +5,11 @@ tags:
   - kafka
 ---
 
-In this week's blog, I try to make sense of Apache Kafka® [ProducerAPI](https://kafka.apache.org/documentation/#producerapi) and [ConsumerAPI](https://kafka.apache.org/documentation/#consumerapi). In an effort to do so, I use a simple Java program to produce some messages to Kafka and consume those messages. After two weeks of theory in the [Dewan learns Kafka series](https://dewanahmed.com/series/learning-kafka), I just NEED to dive in to some code before learning advanced Kafka topics. Yes, that was a “topic” pun… I’ll see myself out. 
+In this week's blog, I try to make sense of Apache Kafka® [ProducerAPI](https://kafka.apache.org/documentation/#producerapi) and [ConsumerAPI](https://kafka.apache.org/documentation/#consumerapi). In an effort to do so, I use a simple Java program to produce some messages to Kafka and consume those messages. After two weeks of theory in the **Dewan learns Kafka** series, I just NEED to dive in to some code before learning advanced Kafka topics. Yes, that was a “topic” pun… I’ll see myself out. 
 
 ## What do you need to get started? 
 
-Last week, I [discussed](https://dewanahmed.com/dewan-learns-kafka-architecture-principles) how complex it can get to stand-up a production-ready Kafka cluster by yourself. Since my goal is to actually use Kafka to benefit my application and NOT to learn Kafka administration, I'll be using a [managed Kafka service](https://aiven.io/kafka). You can [download Kafka locally](https://kafka.apache.org/downloads) or follow [these instructions](https://developer.aiven.io/docs/products/kafka/getting-started.html) to give **Aiven for Apache Kafka®** a try. You'll also need a development environment and some familiarity with the language you choose to talk to Kafka.  
+Last week, I [discussed](https://dewanahmed.com/kafka-principles) how complex it can get to stand-up a production-ready Kafka cluster by yourself. Since my goal is to actually use Kafka to benefit my application and NOT to learn Kafka administration, I'll be using a [managed Kafka service](https://aiven.io/kafka). You can [download Kafka locally](https://kafka.apache.org/downloads) or follow [these instructions](https://developer.aiven.io/docs/products/kafka/getting-started.html) to give **Aiven for Apache Kafka®** a try. You'll also need a development environment and some familiarity with the language you choose to talk to Kafka.  
 
 I could just [ask the magic box](https://stackoverflow.com/) that software engineers use whenever they need a production-grade application. But learning doesn't happen that way. Learning starts at documentation and ends at? That's a trick question; learning never ends 😉. When writing two simple Kafka producer/consumer programs, I had to check eleventy-zillion documentation pages and kept getting errors. But once I was finally able to get the message to a Kafka topic and read from it, all the effort paid off. Thus, I won't be copy-pasting my programs here, but rather I'll share with you my mistakes and successes so that you can take the difficult, yet rewarding learning route. A small heads-up that these programs are merely for learning purposes and might not adhere to best practices. 
 
@@ -35,7 +35,7 @@ There are five parts to the actual producer program:
 4. Send data
 5. Close connection
 
-![Talk to Kafka](../assets/images/kafka006.png)
+![Talk to Kafka](/assets/images/kafka006.png)
 
 ### 1. Producer properties
 

@@ -15,7 +15,7 @@ The software industry is growing at an exploding rate and it seems that this is 
 
 Are you an expert recruiter who knows this already? That's awesome for you and now you have a handy blog link to share with your colleagues who might need it (you and I both know that a lot of them will need this 😉)
 
-![Dear Recruiter](../assets/images/dear-recruiter.jpg)
+![Dear Recruiter](/assets/images/dear-recruiter.jpg)
 
 ## Why do I care
 
