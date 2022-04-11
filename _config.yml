@@ -16,8 +16,6 @@
 title: Dewan's Blog
 description: >- # this means to ignore newlines until "baseurl:"
   Read about app/data infrastructure, developer advocacy, and my thoughts around a career in tech.
-twitter_username: DewanAhmed
-github_username: dewan-ahmed
 
 minimal_mistakes_skin: default
 search: true
