@@ -1,15 +1,15 @@
 ---
 title: "Principles and patterns - A tale of infrastructure as code"
-date: 2022-05-11T16:50:00-04:00
+date: 2022-05-10T06:50:00-04:00
 author: Dewan Ahmed
 header:
- teaser: "/assets/images/iac-part1.jpg"
+  teaser: "/assets/images/iac-part2.jpg"
 tags:
 - infrastructure-as-code
 - devops
 ---
 
-A few years ago, I wrote about a few common objections to infrastructure-as-code (IaC) and how [stability comes from making changes](https://www.dewanahmed.com/stability-from-iac/). If your leadership is now convinced to adopt IaC, how do you implement this in your organization? In the second part of the IaC blog series, I will discuss the principles and patterns of IaC.
+A few years ago, I wrote about common objections to infrastructure-as-code (IaC) and how [stability comes from making changes](https://www.dewanahmed.com/stability-from-iac/). If your leadership is now convinced to adopt IaC, how do you implement this in your organization? In the second part of the IaC blog series, I will discuss the principles and patterns of IaC.
 For reference, the following table lists things found on a server:
  
 | Type  | Description  | Keep in mind  |
