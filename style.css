@@ -68,5 +68,6 @@ header {
 }
 
 .service {
-	padding: 20px
+	padding: 20px;
+	border-bottom: 1;
 }
