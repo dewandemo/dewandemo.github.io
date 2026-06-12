@@ -93,13 +93,14 @@ SESSION = requests.Session()
 SESSION.headers.update({
     "Api-Key":      API_KEY,
     "Api-Username": API_USERNAME,
-    "Content-Type": "application/json",
 })
 
 
 def api(path, method="GET", body=None):
-    url  = f"{DISCOURSE_URL}{path}"
-    resp = SESSION.request(method, url, json=body, timeout=30)
+    url     = f"{DISCOURSE_URL}{path}"
+    headers = {"Content-Type": "application/json"} if body is not None else {}
+    resp    = SESSION.request(method, url, json=body, headers=headers, timeout=30)
+    print(f"  {method} {path} → {resp.status_code}")
     if not resp.ok:
         raise RuntimeError(f"HTTP {resp.status_code} {method} {url}:\n{resp.text[:500]}")
     if not resp.text.strip():
@@ -107,7 +108,7 @@ def api(path, method="GET", body=None):
     try:
         return resp.json()
     except requests.exceptions.JSONDecodeError:
-        raise RuntimeError(f"Non-JSON response for {method} {url}:\n{resp.text[:500]}")
+        raise RuntimeError(f"Non-JSON response for {method} {url} (status {resp.status_code}):\n{resp.text[:500]}")
 
 
 def find_or_create_query(key):
