@@ -101,20 +101,22 @@ GROUP BY u.username ORDER BY reply_count DESC LIMIT 10""",
 
 def find_or_create_query(key):
     name     = QUERIES[key]["name"]
-    existing = client._get("/admin/plugins/explorer/queries")
+    existing = client._get("/admin/plugins/explorer/queries") or {}
     for q in existing.get("queries", []):
         if q["name"] == name:
             print(f"  Reusing query id={q['id']} '{name}'")
             return q["id"]
     result = client._post("/admin/plugins/explorer/queries",
-                          query={"name": name, "sql": QUERIES[key]["sql"]})
-    qid = (result.get("query") or result)["id"]
+                          query={"name": name, "sql": QUERIES[key]["sql"]}) or {}
+    qid = (result.get("query") or result).get("id")
+    if not qid:
+        raise RuntimeError(f"No query ID returned when creating '{name}'. Response: {result}")
     print(f"  Created query id={qid} '{name}'")
     return qid
 
 
 def run_query(qid):
-    result  = client._post(f"/admin/plugins/explorer/queries/{qid}/run", limit=200)
+    result  = client._post(f"/admin/plugins/explorer/queries/{qid}/run", limit=200) or {}
     payload = result.get("result", result)
     columns = payload.get("columns", [])
     rows    = payload.get("rows", [])
