@@ -10,19 +10,29 @@ Required env vars: DISCOURSE_URL, DISCOURSE_API_KEY, DISCOURSE_API_USERNAME
 import json
 import os
 import sys
-import requests
 from datetime import datetime, timezone
+from pydiscourse import DiscourseClient
 
 DISCOURSE_URL = os.environ.get("DISCOURSE_URL", "").rstrip("/")
 API_KEY       = os.environ.get("DISCOURSE_API_KEY", "")
 API_USERNAME  = os.environ.get("DISCOURSE_API_USERNAME", "")
 
-missing = [k for k, v in {"DISCOURSE_URL": DISCOURSE_URL, "DISCOURSE_API_KEY": API_KEY, "DISCOURSE_API_USERNAME": API_USERNAME}.items() if not v]
+missing = [k for k, v in {
+    "DISCOURSE_URL": DISCOURSE_URL,
+    "DISCOURSE_API_KEY": API_KEY,
+    "DISCOURSE_API_USERNAME": API_USERNAME,
+}.items() if not v]
 if missing:
     print(f"ERROR: Missing required environment variables: {', '.join(missing)}", file=sys.stderr)
     sys.exit(1)
 
 print(f"Connecting to {DISCOURSE_URL} as {API_USERNAME}")
+
+client = DiscourseClient(
+    DISCOURSE_URL,
+    api_username=API_USERNAME,
+    api_key=API_KEY,
+)
 
 QUERIES = {
     "health": {
@@ -89,44 +99,22 @@ GROUP BY u.username ORDER BY reply_count DESC LIMIT 10""",
 }
 
 
-SESSION = requests.Session()
-SESSION.headers.update({
-    "Api-Key":      API_KEY,
-    "Api-Username": API_USERNAME,
-})
-
-
-def api(path, method="GET", body=None):
-    url     = f"{DISCOURSE_URL}{path}"
-    headers = {"Content-Type": "application/json"} if body is not None else {}
-    resp    = SESSION.request(method, url, json=body, headers=headers, timeout=30)
-    print(f"  {method} {path} → {resp.status_code}")
-    if not resp.ok:
-        raise RuntimeError(f"HTTP {resp.status_code} {method} {url}:\n{resp.text[:500]}")
-    if not resp.text.strip():
-        raise RuntimeError(f"Empty response for {method} {url}")
-    try:
-        return resp.json()
-    except requests.exceptions.JSONDecodeError:
-        raise RuntimeError(f"Non-JSON response for {method} {url} (status {resp.status_code}):\n{resp.text[:500]}")
-
-
 def find_or_create_query(key):
-    name = QUERIES[key]["name"]
-    existing = api("/admin/plugins/explorer/queries")
+    name     = QUERIES[key]["name"]
+    existing = client._get("/admin/plugins/explorer/queries")
     for q in existing.get("queries", []):
         if q["name"] == name:
             print(f"  Reusing query id={q['id']} '{name}'")
             return q["id"]
-    result = api("/admin/plugins/explorer/queries", "POST",
-                 {"query": {"name": name, "sql": QUERIES[key]["sql"]}})
+    result = client._post("/admin/plugins/explorer/queries",
+                          query={"name": name, "sql": QUERIES[key]["sql"]})
     qid = (result.get("query") or result)["id"]
     print(f"  Created query id={qid} '{name}'")
     return qid
 
 
 def run_query(qid):
-    result  = api(f"/admin/plugins/explorer/queries/{qid}/run", "POST", {"limit": 200})
+    result  = client._post(f"/admin/plugins/explorer/queries/{qid}/run", limit=200)
     payload = result.get("result", result)
     columns = payload.get("columns", [])
     rows    = payload.get("rows", [])
