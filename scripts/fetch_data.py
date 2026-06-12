@@ -10,8 +10,7 @@ Required env vars: DISCOURSE_URL, DISCOURSE_API_KEY, DISCOURSE_API_USERNAME
 import json
 import os
 import sys
-import urllib.request
-import urllib.error
+import requests
 from datetime import datetime, timezone
 
 DISCOURSE_URL = os.environ.get("DISCOURSE_URL", "").rstrip("/")
@@ -90,26 +89,25 @@ GROUP BY u.username ORDER BY reply_count DESC LIMIT 10""",
 }
 
 
+SESSION = requests.Session()
+SESSION.headers.update({
+    "Api-Key":      API_KEY,
+    "Api-Username": API_USERNAME,
+    "Content-Type": "application/json",
+})
+
+
 def api(path, method="GET", body=None):
     url  = f"{DISCOURSE_URL}{path}"
-    data = json.dumps(body).encode() if body is not None else None
-    req  = urllib.request.Request(url, data=data, method=method)
-    req.add_header("Content-Type", "application/json")
-    req.add_header("Api-Key",      API_KEY)
-    req.add_header("Api-Username", API_USERNAME)
+    resp = SESSION.request(method, url, json=body, timeout=30)
+    if not resp.ok:
+        raise RuntimeError(f"HTTP {resp.status_code} {method} {url}:\n{resp.text[:500]}")
+    if not resp.text.strip():
+        raise RuntimeError(f"Empty response for {method} {url}")
     try:
-        with urllib.request.urlopen(req) as resp:
-            raw = resp.read()
-            if not raw:
-                raise RuntimeError(f"Empty response body for {method} {url} (status {resp.status})")
-            try:
-                return json.loads(raw)
-            except json.JSONDecodeError:
-                preview = raw[:500].decode("utf-8", errors="replace")
-                raise RuntimeError(f"Non-JSON response for {method} {url}:\n{preview}")
-    except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"HTTP {e.code} {method} {url}:\n{body[:500]}")
+        return resp.json()
+    except requests.exceptions.JSONDecodeError:
+        raise RuntimeError(f"Non-JSON response for {method} {url}:\n{resp.text[:500]}")
 
 
 def find_or_create_query(key):
