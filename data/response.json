@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "category": "Open Source",
+    "topic_id": 594,
+    "title": "Harness Open Source vs Drone",
+    "topic_created_at": "2026-06-12T15:48:15.262Z",
+    "first_reply_at": "2026-06-12T15:50:07.676Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-12T15:50:07.676Z",
+    "time_to_first_engagement": "0.03"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 593,
+    "title": "How to use K8s infra in my CI pipeline?",
+    "topic_created_at": "2026-06-12T15:35:16.404Z",
+    "first_reply_at": "2026-06-12T15:35:53.688Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-12T15:35:53.688Z",
+    "time_to_first_engagement": "0.01"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "topic_id": 591,
+    "title": "How to configure a secret in Harness pipeline",
+    "topic_created_at": "2026-06-11T20:09:08.448Z",
+    "first_reply_at": "2026-06-11T20:10:21.857Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-11T20:10:41.110Z",
+    "first_engagement_at": "2026-06-11T20:10:21.857Z",
+    "time_to_first_engagement": "0.02"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 590,
+    "title": "Why did my Harness webhook trigger stop firing, and how can I troubleshoot it?",
+    "topic_created_at": "2026-06-11T18:31:55.967Z",
+    "first_reply_at": "2026-06-11T18:32:42.138Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-11T18:32:42.138Z",
+    "time_to_first_engagement": "0.01"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 588,
+    "title": "Test intelligence in CI",
+    "topic_created_at": "2026-06-11T15:44:07.982Z",
+    "first_reply_at": "2026-06-11T15:48:21.336Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-11T15:48:39.533Z",
+    "first_engagement_at": "2026-06-11T15:48:21.336Z",
+    "time_to_first_engagement": "0.07"
+  },
+  {
+    "category": "Infrastructure as Code Management",
+    "topic_id": 564,
+    "title": "Create Dynamic workspaces during pipeline execution",
+    "topic_created_at": "2026-06-09T17:41:23.247Z",
+    "first_reply_at": "2026-06-09T17:41:24.942Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-09T17:41:24.942Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 532,
+    "title": "Configure a CI build pipeline [01144]",
+    "topic_created_at": "2026-06-09T10:32:29.990Z",
+    "first_reply_at": "2026-06-09T10:32:35.714Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-10T15:49:15.076Z",
+    "first_engagement_at": "2026-06-09T10:32:35.714Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 507,
+    "title": "How to enable test intelligence for your environment",
+    "topic_created_at": "2026-06-08T20:12:30.466Z",
+    "first_reply_at": "2026-06-08T20:12:34.874Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-10T15:58:29.152Z",
+    "first_engagement_at": "2026-06-08T20:12:34.874Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "topic_id": 506,
+    "title": "Canary rollout question",
+    "topic_created_at": "2026-06-08T19:03:24.974Z",
+    "first_reply_at": "2026-06-08T19:03:33.718Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-08T19:03:33.718Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "topic_id": 500,
+    "title": "Custom manifest source in service",
+    "topic_created_at": "2026-06-05T21:22:45.519Z",
+    "first_reply_at": "2026-06-05T21:22:50.799Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-05T21:22:57.357Z",
+    "first_engagement_at": "2026-06-05T21:22:50.799Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "topic_id": 499,
+    "title": "Flux CD support for GitOps",
+    "topic_created_at": "2026-06-05T21:02:42.033Z",
+    "first_reply_at": "2026-06-05T21:02:44.259Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-05T21:02:44.259Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 485,
+    "title": "Harness CI vs jenkins",
+    "topic_created_at": "2026-06-05T15:23:23.900Z",
+    "first_reply_at": "2026-06-05T15:23:30.034Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-10T15:51:09.668Z",
+    "first_engagement_at": "2026-06-05T15:23:30.034Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 479,
+    "title": "Delegate OOM crash during large Helm chart deploy \u2014 pod killed mid-rollout",
+    "topic_created_at": "2026-06-05T14:21:32.428Z",
+    "first_reply_at": "2026-06-05T14:21:40.382Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-10T15:51:29.297Z",
+    "first_engagement_at": "2026-06-05T14:21:40.382Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 478,
+    "title": "Unable to push to GAR for SMP - Harness CI",
+    "topic_created_at": "2026-06-05T14:06:38.400Z",
+    "first_reply_at": "2026-06-05T14:06:41.824Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-05T14:06:41.824Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "Feature Management & Experimentation",
+    "topic_id": 451,
+    "title": "About the Feature Management & Experimentation category",
+    "topic_created_at": "2026-06-04T18:41:07.034Z",
+    "first_reply_at": "2026-06-05T11:00:37.508Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-05T11:00:37.508Z",
+    "time_to_first_engagement": "16.33"
+  },
+  {
+    "category": "Infrastructure as Code Management",
+    "topic_id": 448,
+    "title": "About the Infrastructure as Code Management category",
+    "topic_created_at": "2026-06-04T18:41:04.130Z",
+    "first_reply_at": "2026-06-05T11:00:35.709Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-05T11:00:35.709Z",
+    "time_to_first_engagement": "16.33"
+  },
+  {
+    "category": "Internal Developer Portal",
+    "topic_id": 447,
+    "title": "About the Internal Developer Portal category",
+    "topic_created_at": "2026-06-04T18:41:03.161Z",
+    "first_reply_at": "2026-06-05T11:00:36.058Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-05T11:00:36.058Z",
+    "time_to_first_engagement": "16.33"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 446,
+    "title": "About the Continuous Integration category",
+    "topic_created_at": "2026-06-04T18:41:02.240Z",
+    "first_reply_at": "2026-06-05T11:00:35.918Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-05T11:00:35.918Z",
+    "time_to_first_engagement": "16.33"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "topic_id": 445,
+    "title": "About the Continuous Delivery & GitOps category",
+    "topic_created_at": "2026-06-04T18:33:17.196Z",
+    "first_reply_at": "2026-06-05T11:00:35.801Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-05T11:00:35.801Z",
+    "time_to_first_engagement": "16.46"
+  },
+  {
+    "category": "Staff",
+    "topic_id": 4,
+    "title": "FAQ/Guidelines",
+    "topic_created_at": "2026-03-06T04:19:48.260Z",
+    "first_reply_at": "2026-03-06T04:19:48.675Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-03-06T04:19:48.675Z",
+    "time_to_first_engagement": "0.0"
+  }
+]

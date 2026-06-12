@@ -1,1 +1,107 @@
-[]
+[
+  {
+    "category": "Continuous Delivery & GitOps",
+    "total_topics": 9,
+    "solved_topics": 2,
+    "solve_rate_pct": "22.2",
+    "avg_hours_to_solve": "0.0"
+  },
+  {
+    "category": "Continuous Integration",
+    "total_topics": 8,
+    "solved_topics": 5,
+    "solve_rate_pct": "62.5",
+    "avg_hours_to_solve": "63.0"
+  },
+  {
+    "category": "General & Harness Platform",
+    "total_topics": 3,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Events",
+    "total_topics": 3,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Staff",
+    "total_topics": 3,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Open Source",
+    "total_topics": 2,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Watercooler",
+    "total_topics": 2,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Infrastructure as Code Management",
+    "total_topics": 2,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Database DevOps",
+    "total_topics": 1,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Feature Management & Experimentation",
+    "total_topics": 1,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Free Tier, Pricing and Upgrade",
+    "total_topics": 1,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "General Discussion",
+    "total_topics": 1,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Harness University",
+    "total_topics": 1,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Internal Developer Portal",
+    "total_topics": 1,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Resilience Testing",
+    "total_topics": 1,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  }
+]
