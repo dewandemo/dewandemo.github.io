@@ -1,80 +1,77 @@
-# Hydra
+# Community Health Dashboard
 
-Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
-Increase the web presence of your brand with this configurable theme.
+A static GitHub Pages dashboard for Discourse community health metrics.
 
-![Hydra template screenshot](images/_screenshot.png)
+Credentials **never reach the browser** — a GitHub Actions workflow fetches data server-side and writes static JSON files that the page reads.
 
-Hydra was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+## Architecture
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+```
+GitHub Actions (scheduled + manual)
+  └── scripts/fetch_data.py   ← uses secrets, calls Discourse API
+        └── data/*.json        ← committed to repo
+              └── index.html   ← reads JSON, no credentials, no API calls
+```
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/hydra-jekyll-template)
+## What it shows
 
-## Features
-
-* Contact form
-* Pre-built pages
-* Pre-styled components
-* Blog with pagination
-* Post category pages
-* Disqus comments for posts
-* Staff and author system
-* Configurable footer
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+| Tab               | Description                                                       |
+| ----------------- | ----------------------------------------------------------------- |
+| **30-day Health** | KPI cards: new topics, active users, replies, likes               |
+| **Response Time** | Per-topic time-to-first-engagement (reply, reaction, or solution) |
+| **Solved Topics** | Solve rate and avg time-to-solve per category                     |
+| **Contributors**  | Top 10 reply contributors in the last 30 days                     |
 
 ## Setup
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics and Disqus keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+### 1. Fork / push to GitHub
 
-## Develop
+Push this repo to GitHub. GitHub Pages will serve `index.html` from the root of `main`.
 
-Hydra was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
+### 2. Enable GitHub Pages
 
-Install the dependencies with [Bundler](http://bundler.io/):
+Go to **Settings → Pages → Source** and set it to **Deploy from branch → main → / (root)**.
 
-~~~bash
-$ bundle install
-~~~
+### 3. Add secrets
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+Go to **Settings → Secrets and variables → Actions → New repository secret** and add:
 
-~~~bash
-$ bundle exec jekyll serve
-~~~
+| Secret name              | Value                                                        |
+| ------------------------ | ------------------------------------------------------------ |
+| `DISCOURSE_URL`          | `https://your-community.discourse.group` (no trailing slash) |
+| `DISCOURSE_API_KEY`      | Your Discourse API key (Admin → API → New API Key)           |
+| `DISCOURSE_API_USERNAME` | The admin username the key belongs to                        |
 
-## Editing
+The API key needs **All Users** scope and the **Data Explorer** plugin must be installed.
 
-Hydra is already optimised for adding, updating and removing pages, staff, advice, company details and footer elements in CloudCannon.
+### 4. Run the workflow
 
-### Posts
+Go to **Actions → Refresh community data → Run workflow**.  
+The workflow commits `data/*.json` to the repo, and GitHub Pages serves the updated files.
 
-* Add, update or remove a post in the *Posts* collection.
-* The **Staff Author** field links to members in the **Staff** collection.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
+The workflow also runs automatically every 6 hours via cron.
 
-### Contact Form
+### 5. Open the dashboard
 
-* Preconfigured to work with CloudCannon, but easily changed to another provider (e.g. [FormSpree](https://formspree.io/)).
-* Sends email to the address listed in company details.
+Visit `https://dewandemo.github.io/`.
 
-### Staff
+## Refreshing data
 
-* Reused around the site to save multiple editing locations.
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+Click **Refresh data** in the top-right corner — it opens the GitHub Actions workflow page where you can trigger a manual run. After the run completes (~30 seconds), reload the dashboard page.
 
-### Navigation
+## Running locally
 
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
+```bash
+git clone https://github.com/dewandemo/dewandemo.github.io.git
+cd dewandemo.github.io
 
-### Footer
+# Fetch data locally (requires env vars)
+export DISCOURSE_URL="https://your-community.discourse.group"
+export DISCOURSE_API_KEY="your_api_key"
+export DISCOURSE_API_USERNAME="your_admin_username"
+python3 scripts/fetch_data.py
 
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+# Serve the dashboard
+python3 -m http.server 8080
+# Open http://localhost:8080
+```
