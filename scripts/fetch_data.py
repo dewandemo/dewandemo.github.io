@@ -14,9 +14,16 @@ import urllib.request
 import urllib.error
 from datetime import datetime, timezone
 
-DISCOURSE_URL = os.environ["DISCOURSE_URL"].rstrip("/")
-API_KEY       = os.environ["DISCOURSE_API_KEY"]
-API_USERNAME  = os.environ["DISCOURSE_API_USERNAME"]
+DISCOURSE_URL = os.environ.get("DISCOURSE_URL", "").rstrip("/")
+API_KEY       = os.environ.get("DISCOURSE_API_KEY", "")
+API_USERNAME  = os.environ.get("DISCOURSE_API_USERNAME", "")
+
+missing = [k for k, v in {"DISCOURSE_URL": DISCOURSE_URL, "DISCOURSE_API_KEY": API_KEY, "DISCOURSE_API_USERNAME": API_USERNAME}.items() if not v]
+if missing:
+    print(f"ERROR: Missing required environment variables: {', '.join(missing)}", file=sys.stderr)
+    sys.exit(1)
+
+print(f"Connecting to {DISCOURSE_URL} as {API_USERNAME}")
 
 QUERIES = {
     "health": {
@@ -92,11 +99,17 @@ def api(path, method="GET", body=None):
     req.add_header("Api-Username", API_USERNAME)
     try:
         with urllib.request.urlopen(req) as resp:
-            return json.loads(resp.read())
+            raw = resp.read()
+            if not raw:
+                raise RuntimeError(f"Empty response body for {method} {url} (status {resp.status})")
+            try:
+                return json.loads(raw)
+            except json.JSONDecodeError:
+                preview = raw[:500].decode("utf-8", errors="replace")
+                raise RuntimeError(f"Non-JSON response for {method} {url}:\n{preview}")
     except urllib.error.HTTPError as e:
-        body = e.read().decode()
-        print(f"HTTP {e.code} {method} {path}: {body}", file=sys.stderr)
-        raise
+        body = e.read().decode("utf-8", errors="replace")
+        raise RuntimeError(f"HTTP {e.code} {method} {url}:\n{body[:500]}")
 
 
 def find_or_create_query(key):
