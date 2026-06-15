@@ -1,11 +1,21 @@
 [
   {
     "username": "dewan",
-    "reply_count": 7,
-    "topics_participated": 6
+    "reply_count": 8,
+    "topics_participated": 7
   },
   {
     "username": "nemo",
+    "reply_count": 3,
+    "topics_participated": 3
+  },
+  {
+    "username": "adeebvaliulla",
+    "reply_count": 1,
+    "topics_participated": 1
+  },
+  {
+    "username": "richard.paul",
     "reply_count": 1,
     "topics_participated": 1
   }

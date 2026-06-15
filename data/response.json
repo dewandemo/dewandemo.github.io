@@ -1,5 +1,60 @@
 [
   {
+    "category": "General & Harness Platform",
+    "topic_id": 616,
+    "title": "How do I store AWS secret access keys & credentials for production in Harness 232900",
+    "topic_created_at": "2026-06-15T17:59:01.206Z",
+    "first_reply_at": "2026-06-15T18:05:40.413Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-15T18:05:40.413Z",
+    "time_to_first_engagement": "0.11"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 615,
+    "title": "How to add AWS secrets to Harness pipelines",
+    "topic_created_at": "2026-06-15T17:54:41.104Z",
+    "first_reply_at": "2026-06-15T17:57:50.269Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-15T17:57:50.269Z",
+    "time_to_first_engagement": "0.05"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 613,
+    "title": "Setup 99.99% SLO using SRM",
+    "topic_created_at": "2026-06-15T17:44:44.734Z",
+    "first_reply_at": "2026-06-15T17:50:59.026Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-15T17:50:59.026Z",
+    "time_to_first_engagement": "0.1"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 612,
+    "title": "[delay-test] How do I enable remote build caching in Harness CI 230542",
+    "topic_created_at": "2026-06-15T17:35:42.773Z",
+    "first_reply_at": "2026-06-15T17:40:55.123Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-15T17:40:55.123Z",
+    "time_to_first_engagement": "0.09"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 608,
+    "title": "How to configure a remote cache server for cache intelligence",
+    "topic_created_at": "2026-06-15T16:31:03.141Z",
+    "first_reply_at": "2026-06-15T16:31:45.409Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-15T16:32:18.378Z",
+    "first_engagement_at": "2026-06-15T16:31:45.409Z",
+    "time_to_first_engagement": "0.01"
+  },
+  {
     "category": "Continuous Integration",
     "topic_id": 604,
     "title": "[delay-test] How do I enable remote build caching in Harness CI 214329",
@@ -42,6 +97,17 @@
     "solved_at": null,
     "first_engagement_at": "2026-06-12T15:35:53.688Z",
     "time_to_first_engagement": "0.01"
+  },
+  {
+    "category": "Watercooler",
+    "topic_id": 592,
+    "title": "Vim or emacs for coding?",
+    "topic_created_at": "2026-06-11T20:54:21.353Z",
+    "first_reply_at": "2026-06-15T16:26:23.064Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-15T16:26:23.064Z",
+    "time_to_first_engagement": "91.53"
   },
   {
     "category": "Continuous Delivery & GitOps",
