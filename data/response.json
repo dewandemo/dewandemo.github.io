@@ -1,5 +1,38 @@
 [
   {
+    "category": "Artifact Registry",
+    "topic_id": 620,
+    "title": "How does garbage collection handle orphaned blobs in Harness Artifact Registry",
+    "topic_created_at": "2026-06-15T21:30:49.511Z",
+    "first_reply_at": "2026-06-15T21:31:52.576Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-15T21:31:52.576Z",
+    "time_to_first_engagement": "0.02"
+  },
+  {
+    "category": "Artifact Registry",
+    "topic_id": 618,
+    "title": "How does permission inheritance work in Harness Artifact Registry",
+    "topic_created_at": "2026-06-15T21:07:15.022Z",
+    "first_reply_at": "2026-06-15T21:07:39.890Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-15T21:07:39.890Z",
+    "time_to_first_engagement": "0.01"
+  },
+  {
+    "category": "Artifact Registry",
+    "topic_id": 617,
+    "title": "How does Harness Artifact Registry handle garbage collection",
+    "topic_created_at": "2026-06-15T21:00:01.283Z",
+    "first_reply_at": "2026-06-15T21:00:37.761Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-15T21:00:37.761Z",
+    "time_to_first_engagement": "0.01"
+  },
+  {
     "category": "General & Harness Platform",
     "topic_id": 616,
     "title": "How do I store AWS secret access keys & credentials for production in Harness 232900",
@@ -240,61 +273,6 @@
     "solved_at": null,
     "first_engagement_at": "2026-06-05T14:06:41.824Z",
     "time_to_first_engagement": "0.0"
-  },
-  {
-    "category": "Feature Management & Experimentation",
-    "topic_id": 451,
-    "title": "About the Feature Management & Experimentation category",
-    "topic_created_at": "2026-06-04T18:41:07.034Z",
-    "first_reply_at": "2026-06-05T11:00:37.508Z",
-    "first_reaction_at": null,
-    "solved_at": null,
-    "first_engagement_at": "2026-06-05T11:00:37.508Z",
-    "time_to_first_engagement": "16.33"
-  },
-  {
-    "category": "Infrastructure as Code Management",
-    "topic_id": 448,
-    "title": "About the Infrastructure as Code Management category",
-    "topic_created_at": "2026-06-04T18:41:04.130Z",
-    "first_reply_at": "2026-06-05T11:00:35.709Z",
-    "first_reaction_at": null,
-    "solved_at": null,
-    "first_engagement_at": "2026-06-05T11:00:35.709Z",
-    "time_to_first_engagement": "16.33"
-  },
-  {
-    "category": "Internal Developer Portal",
-    "topic_id": 447,
-    "title": "About the Internal Developer Portal category",
-    "topic_created_at": "2026-06-04T18:41:03.161Z",
-    "first_reply_at": "2026-06-05T11:00:36.058Z",
-    "first_reaction_at": null,
-    "solved_at": null,
-    "first_engagement_at": "2026-06-05T11:00:36.058Z",
-    "time_to_first_engagement": "16.33"
-  },
-  {
-    "category": "Continuous Integration",
-    "topic_id": 446,
-    "title": "About the Continuous Integration category",
-    "topic_created_at": "2026-06-04T18:41:02.240Z",
-    "first_reply_at": "2026-06-05T11:00:35.918Z",
-    "first_reaction_at": null,
-    "solved_at": null,
-    "first_engagement_at": "2026-06-05T11:00:35.918Z",
-    "time_to_first_engagement": "16.33"
-  },
-  {
-    "category": "Continuous Delivery & GitOps",
-    "topic_id": 445,
-    "title": "About the Continuous Delivery & GitOps category",
-    "topic_created_at": "2026-06-04T18:33:17.196Z",
-    "first_reply_at": "2026-06-05T11:00:35.801Z",
-    "first_reaction_at": null,
-    "solved_at": null,
-    "first_engagement_at": "2026-06-05T11:00:35.801Z",
-    "time_to_first_engagement": "16.46"
   },
   {
     "category": "Staff",
