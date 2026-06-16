@@ -11,6 +11,17 @@
     "time_to_first_engagement": "0.02"
   },
   {
+    "category": "Internal Developer Portal",
+    "topic_id": 619,
+    "title": "Component registered but showing \"Unknown\"",
+    "topic_created_at": "2026-06-15T21:29:26.145Z",
+    "first_reply_at": "2026-06-16T00:31:09.216Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T00:31:09.216Z",
+    "time_to_first_engagement": "3.03"
+  },
+  {
     "category": "Artifact Registry",
     "topic_id": 618,
     "title": "How does permission inheritance work in Harness Artifact Registry",
