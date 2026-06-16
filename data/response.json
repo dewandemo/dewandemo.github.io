@@ -1,5 +1,27 @@
 [
   {
+    "category": "Staff",
+    "topic_id": 648,
+    "title": "Privacy Policy",
+    "topic_created_at": "2026-06-16T20:01:26.973Z",
+    "first_reply_at": "2026-06-16T20:01:27.249Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T20:01:27.249Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "Staff",
+    "topic_id": 647,
+    "title": "Terms of Service",
+    "topic_created_at": "2026-06-16T20:01:26.484Z",
+    "first_reply_at": "2026-06-16T20:01:26.857Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T20:01:26.857Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
     "category": "General & Harness Platform",
     "topic_id": 642,
     "title": "AI & Developer Productivity",

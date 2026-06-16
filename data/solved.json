@@ -7,6 +7,13 @@
     "avg_hours_to_solve": "0.5"
   },
   {
+    "category": "Continuous Integration",
+    "total_topics": 12,
+    "solved_topics": 6,
+    "solve_rate_pct": "50.0",
+    "avg_hours_to_solve": "52.5"
+  },
+  {
     "category": "Continuous Delivery & GitOps",
     "total_topics": 12,
     "solved_topics": 2,
@@ -14,11 +21,11 @@
     "avg_hours_to_solve": "0.0"
   },
   {
-    "category": "Continuous Integration",
-    "total_topics": 12,
-    "solved_topics": 6,
-    "solve_rate_pct": "50.0",
-    "avg_hours_to_solve": "52.5"
+    "category": "Staff",
+    "total_topics": 5,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
   },
   {
     "category": "Artifact Registry",
@@ -35,7 +42,7 @@
     "avg_hours_to_solve": null
   },
   {
-    "category": "Staff",
+    "category": "Infrastructure as Code Management",
     "total_topics": 3,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
@@ -50,28 +57,14 @@
   },
   {
     "category": "Internal Developer Portal",
+    "total_topics": 3,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Cloud & AI Cost Management",
     "total_topics": 2,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "Infrastructure as Code Management",
-    "total_topics": 2,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "Free Tier, Pricing and Upgrade",
-    "total_topics": 1,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "General Discussion",
-    "total_topics": 1,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null
@@ -99,6 +92,13 @@
   },
   {
     "category": "AI DLC Insights",
+    "total_topics": 1,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Web Application & API Protection",
     "total_topics": 1,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
