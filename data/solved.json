@@ -1,24 +1,24 @@
 [
   {
+    "category": "General & Harness Platform",
+    "total_topics": 15,
+    "solved_topics": 1,
+    "solve_rate_pct": "6.7",
+    "avg_hours_to_solve": "0.5"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "total_topics": 12,
+    "solved_topics": 2,
+    "solve_rate_pct": "16.7",
+    "avg_hours_to_solve": "0.0"
+  },
+  {
     "category": "Continuous Integration",
     "total_topics": 12,
     "solved_topics": 6,
     "solve_rate_pct": "50.0",
     "avg_hours_to_solve": "52.5"
-  },
-  {
-    "category": "Continuous Delivery & GitOps",
-    "total_topics": 11,
-    "solved_topics": 2,
-    "solve_rate_pct": "18.2",
-    "avg_hours_to_solve": "0.0"
-  },
-  {
-    "category": "General & Harness Platform",
-    "total_topics": 8,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
   },
   {
     "category": "Artifact Registry",
@@ -28,7 +28,7 @@
     "avg_hours_to_solve": null
   },
   {
-    "category": "Events",
+    "category": "Open Source",
     "total_topics": 3,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
@@ -42,21 +42,14 @@
     "avg_hours_to_solve": null
   },
   {
+    "category": "Events",
+    "total_topics": 3,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
     "category": "Internal Developer Portal",
-    "total_topics": 2,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "Open Source",
-    "total_topics": 2,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "Watercooler",
     "total_topics": 2,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
@@ -65,6 +58,13 @@
   {
     "category": "Infrastructure as Code Management",
     "total_topics": 2,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Free Tier, Pricing and Upgrade",
+    "total_topics": 1,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null

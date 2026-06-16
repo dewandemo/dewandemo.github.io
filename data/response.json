@@ -1,5 +1,104 @@
 [
   {
+    "category": "General & Harness Platform",
+    "topic_id": 642,
+    "title": "AI & Developer Productivity",
+    "topic_created_at": "2026-06-16T18:47:09.725Z",
+    "first_reply_at": "2026-06-16T18:59:01.350Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T18:59:01.350Z",
+    "time_to_first_engagement": "0.2"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 641,
+    "title": "Does Harness support pushing images to GAR",
+    "topic_created_at": "2026-06-16T18:21:01.630Z",
+    "first_reply_at": "2026-06-16T18:39:26.563Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-16T18:53:47.616Z",
+    "first_engagement_at": "2026-06-16T18:39:26.563Z",
+    "time_to_first_engagement": "0.31"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 639,
+    "title": "How to connect DynamoDB to the Harness platform",
+    "topic_created_at": "2026-06-16T17:20:04.349Z",
+    "first_reply_at": "2026-06-16T17:20:20.634Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T17:20:20.634Z",
+    "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 638,
+    "title": "How do I enable Harness AI?",
+    "topic_created_at": "2026-06-16T17:15:10.620Z",
+    "first_reply_at": "2026-06-16T18:42:59.281Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T18:42:59.281Z",
+    "time_to_first_engagement": "1.46"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 637,
+    "title": "Dynamodb primary key design",
+    "topic_created_at": "2026-06-16T17:06:52.723Z",
+    "first_reply_at": "2026-06-16T17:16:18.277Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T17:16:18.277Z",
+    "time_to_first_engagement": "0.16"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 636,
+    "title": "My error budget is draining much faster",
+    "topic_created_at": "2026-06-16T17:01:00.727Z",
+    "first_reply_at": "2026-06-16T18:44:17.432Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T18:44:17.432Z",
+    "time_to_first_engagement": "1.72"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "topic_id": 635,
+    "title": "Gitops application is stuck in Syncing state",
+    "topic_created_at": "2026-06-16T16:40:22.935Z",
+    "first_reply_at": "2026-06-16T19:07:49.495Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T19:07:49.495Z",
+    "time_to_first_engagement": "2.46"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 634,
+    "title": "Delegate action failing with Command not found",
+    "topic_created_at": "2026-06-16T16:39:08.389Z",
+    "first_reply_at": "2026-06-16T19:09:52.817Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T19:09:52.817Z",
+    "time_to_first_engagement": "2.51"
+  },
+  {
+    "category": "Open Source",
+    "topic_id": 629,
+    "title": "Using a custom image registry in Harness Open Source",
+    "topic_created_at": "2026-06-16T16:04:52.430Z",
+    "first_reply_at": "2026-06-16T19:15:40.154Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T19:15:40.154Z",
+    "time_to_first_engagement": "3.18"
+  },
+  {
     "category": "Artifact Registry",
     "topic_id": 620,
     "title": "How does garbage collection handle orphaned blobs in Harness Artifact Registry",
@@ -88,6 +187,17 @@
     "time_to_first_engagement": "0.09"
   },
   {
+    "category": "General & Harness Platform",
+    "topic_id": 610,
+    "title": "Who is the SME on CCM?",
+    "topic_created_at": "2026-06-15T16:33:41.288Z",
+    "first_reply_at": "2026-06-16T19:45:44.021Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-16T19:45:44.021Z",
+    "time_to_first_engagement": "27.2"
+  },
+  {
     "category": "Continuous Integration",
     "topic_id": 608,
     "title": "How to configure a remote cache server for cache intelligence",
@@ -141,17 +251,6 @@
     "solved_at": null,
     "first_engagement_at": "2026-06-12T15:35:53.688Z",
     "time_to_first_engagement": "0.01"
-  },
-  {
-    "category": "Watercooler",
-    "topic_id": 592,
-    "title": "Vim or emacs for coding?",
-    "topic_created_at": "2026-06-11T20:54:21.353Z",
-    "first_reply_at": "2026-06-15T16:26:23.064Z",
-    "first_reaction_at": null,
-    "solved_at": null,
-    "first_engagement_at": "2026-06-15T16:26:23.064Z",
-    "time_to_first_engagement": "91.53"
   },
   {
     "category": "Continuous Delivery & GitOps",
