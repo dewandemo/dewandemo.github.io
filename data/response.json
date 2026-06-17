@@ -1,5 +1,16 @@
 [
   {
+    "category": "General & Harness Platform",
+    "topic_id": 672,
+    "title": "PL delegates connection",
+    "topic_created_at": "2026-06-17T18:29:18.344Z",
+    "first_reply_at": "2026-06-17T18:54:39.789Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-17T18:54:39.789Z",
+    "time_to_first_engagement": "0.42"
+  },
+  {
     "category": "Infrastructure as Code Management",
     "topic_id": 651,
     "title": "Best practices for applying Terraform changes across Dev Test and Prod",
