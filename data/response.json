@@ -1,5 +1,38 @@
 [
   {
+    "category": "Infrastructure as Code Management",
+    "topic_id": 651,
+    "title": "Best practices for applying Terraform changes across Dev Test and Prod",
+    "topic_created_at": "2026-06-16T21:07:51.497Z",
+    "first_reply_at": "2026-06-17T00:15:47.499Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-17T00:15:47.499Z",
+    "time_to_first_engagement": "3.13"
+  },
+  {
+    "category": "Cloud & AI Cost Management",
+    "topic_id": 650,
+    "title": "Attributing AI costs to sessions with LiteLLM gateways",
+    "topic_created_at": "2026-06-16T21:07:19.540Z",
+    "first_reply_at": "2026-06-17T00:15:47.153Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-17T00:15:47.153Z",
+    "time_to_first_engagement": "3.14"
+  },
+  {
+    "category": "Internal Developer Portal",
+    "topic_id": 649,
+    "title": "How Custom Plugins V2 handles isolation and security",
+    "topic_created_at": "2026-06-16T21:06:34.205Z",
+    "first_reply_at": "2026-06-17T00:15:43.635Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-17T00:15:43.635Z",
+    "time_to_first_engagement": "3.15"
+  },
+  {
     "category": "Staff",
     "topic_id": 648,
     "title": "Privacy Policy",
