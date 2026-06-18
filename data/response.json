@@ -1,5 +1,38 @@
 [
   {
+    "category": "Infrastructure as Code Management",
+    "topic_id": 678,
+    "title": "IaCM Drift Detection Setup and Remediation Approach",
+    "topic_created_at": "2026-06-18T16:08:11.876Z",
+    "first_reply_at": "2026-06-18T19:10:42.053Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-18T19:10:42.053Z",
+    "time_to_first_engagement": "3.04"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "topic_id": 677,
+    "title": "How do i migrate from ArgoCD to Harness GitOps",
+    "topic_created_at": "2026-06-18T14:26:50.175Z",
+    "first_reply_at": "2026-06-18T17:32:34.965Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-18T17:32:34.965Z",
+    "time_to_first_engagement": "3.1"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 676,
+    "title": "How do I create a new workspace?",
+    "topic_created_at": "2026-06-18T14:22:13.985Z",
+    "first_reply_at": "2026-06-18T17:25:38.216Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-18T17:25:38.216Z",
+    "time_to_first_engagement": "3.06"
+  },
+  {
     "category": "General & Harness Platform",
     "topic_id": 672,
     "title": "PL delegates connection",
