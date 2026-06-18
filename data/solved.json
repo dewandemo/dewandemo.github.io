@@ -1,10 +1,17 @@
 [
   {
     "category": "General & Harness Platform",
-    "total_topics": 16,
+    "total_topics": 17,
     "solved_topics": 1,
-    "solve_rate_pct": "6.3",
+    "solve_rate_pct": "5.9",
     "avg_hours_to_solve": "0.5"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "total_topics": 13,
+    "solved_topics": 2,
+    "solve_rate_pct": "15.4",
+    "avg_hours_to_solve": "0.0"
   },
   {
     "category": "Continuous Integration",
@@ -14,13 +21,6 @@
     "avg_hours_to_solve": "52.5"
   },
   {
-    "category": "Continuous Delivery & GitOps",
-    "total_topics": 12,
-    "solved_topics": 2,
-    "solve_rate_pct": "16.7",
-    "avg_hours_to_solve": "0.0"
-  },
-  {
     "category": "Staff",
     "total_topics": 5,
     "solved_topics": 0,
@@ -28,22 +28,15 @@
     "avg_hours_to_solve": null
   },
   {
-    "category": "Artifact Registry",
+    "category": "Infrastructure as Code Management",
     "total_topics": 4,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null
   },
   {
-    "category": "Open Source",
-    "total_topics": 3,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "Infrastructure as Code Management",
-    "total_topics": 3,
+    "category": "Artifact Registry",
+    "total_topics": 4,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null
@@ -57,6 +50,13 @@
   },
   {
     "category": "Internal Developer Portal",
+    "total_topics": 3,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Open Source",
     "total_topics": 3,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
