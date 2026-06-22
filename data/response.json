@@ -1,5 +1,16 @@
 [
   {
+    "category": "Continuous Integration",
+    "topic_id": 681,
+    "title": "Test Intell for Harness CI",
+    "topic_created_at": "2026-06-22T14:14:36.150Z",
+    "first_reply_at": "2026-06-22T14:15:54.386Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-22T14:16:18.866Z",
+    "first_engagement_at": "2026-06-22T14:15:54.386Z",
+    "time_to_first_engagement": "0.02"
+  },
+  {
     "category": "Infrastructure as Code Management",
     "topic_id": 678,
     "title": "IaCM Drift Detection Setup and Remediation Approach",
