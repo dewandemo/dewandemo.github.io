@@ -1,5 +1,16 @@
 [
   {
+    "category": "Internal Developer Portal",
+    "topic_id": 684,
+    "title": "System component in IDP",
+    "topic_created_at": "2026-06-23T14:45:17.292Z",
+    "first_reply_at": "2026-06-23T17:45:45.739Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-23T17:45:45.739Z",
+    "time_to_first_engagement": "3.01"
+  },
+  {
     "category": "Continuous Integration",
     "topic_id": 681,
     "title": "Test Intell for Harness CI",
