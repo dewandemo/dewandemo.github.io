@@ -7,18 +7,18 @@
     "avg_hours_to_solve": "0.5"
   },
   {
-    "category": "Continuous Integration",
-    "total_topics": 13,
-    "solved_topics": 7,
-    "solve_rate_pct": "53.8",
-    "avg_hours_to_solve": "45.0"
-  },
-  {
     "category": "Continuous Delivery & GitOps",
     "total_topics": 13,
     "solved_topics": 2,
     "solve_rate_pct": "15.4",
     "avg_hours_to_solve": "0.0"
+  },
+  {
+    "category": "Continuous Integration",
+    "total_topics": 13,
+    "solved_topics": 7,
+    "solve_rate_pct": "53.8",
+    "avg_hours_to_solve": "45.0"
   },
   {
     "category": "Staff",
@@ -28,14 +28,14 @@
     "avg_hours_to_solve": null
   },
   {
-    "category": "Artifact Registry",
+    "category": "Internal Developer Portal",
     "total_topics": 4,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null
   },
   {
-    "category": "Internal Developer Portal",
+    "category": "Artifact Registry",
     "total_topics": 4,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
@@ -70,8 +70,8 @@
     "avg_hours_to_solve": null
   },
   {
-    "category": "Harness University",
-    "total_topics": 1,
+    "category": "AI DLC Insights",
+    "total_topics": 2,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null
@@ -91,14 +91,14 @@
     "avg_hours_to_solve": null
   },
   {
-    "category": "AI DLC Insights",
+    "category": "Web Application & API Protection",
     "total_topics": 1,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null
   },
   {
-    "category": "Web Application & API Protection",
+    "category": "AI Security",
     "total_topics": 1,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
