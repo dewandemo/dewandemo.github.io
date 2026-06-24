@@ -1,5 +1,16 @@
 [
   {
+    "category": "AI DLC Insights",
+    "topic_id": 685,
+    "title": "SEI > How to create Org Tree",
+    "topic_created_at": "2026-06-24T03:09:50.629Z",
+    "first_reply_at": "2026-06-24T16:12:43.246Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-24T16:12:43.246Z",
+    "time_to_first_engagement": "13.05"
+  },
+  {
     "category": "Internal Developer Portal",
     "topic_id": 684,
     "title": "System component in IDP",
