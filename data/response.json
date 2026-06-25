@@ -1,5 +1,16 @@
 [
   {
+    "category": "Continuous Integration",
+    "topic_id": 703,
+    "title": "How to enable cache intelligence in CI",
+    "topic_created_at": "2026-06-25T19:48:59.416Z",
+    "first_reply_at": "2026-06-25T19:59:58.923Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-06-25T20:04:48.170Z",
+    "first_engagement_at": "2026-06-25T19:59:58.923Z",
+    "time_to_first_engagement": "0.18"
+  },
+  {
     "category": "Architecture and Design",
     "topic_id": 695,
     "title": "Best practices for integrating Harness IaCM and FME",
