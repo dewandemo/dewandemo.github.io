@@ -15,9 +15,9 @@
   },
   {
     "category": "Continuous Delivery & GitOps",
-    "total_topics": 13,
+    "total_topics": 14,
     "solved_topics": 2,
-    "solve_rate_pct": "15.4",
+    "solve_rate_pct": "14.3",
     "avg_hours_to_solve": "0.0"
   },
   {
@@ -70,6 +70,13 @@
     "avg_hours_to_solve": null
   },
   {
+    "category": "Architecture and Design",
+    "total_topics": 2,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
     "category": "Cloud & AI Cost Management",
     "total_topics": 2,
     "solved_topics": 0,
@@ -79,13 +86,6 @@
   {
     "category": "Feature Management & Experimentation",
     "total_topics": 2,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "Web Application & API Protection",
-    "total_topics": 1,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null

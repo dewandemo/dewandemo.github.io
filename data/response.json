@@ -319,6 +319,17 @@
     "time_to_first_engagement": "0.05"
   },
   {
+    "category": "Continuous Integration",
+    "topic_id": 614,
+    "title": "Pipeline build step failing with \"Unable to pull image\"",
+    "topic_created_at": "2026-06-15T17:45:51.524Z",
+    "first_reply_at": "2026-06-25T09:36:23.568Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-25T09:36:23.568Z",
+    "time_to_first_engagement": "231.84"
+  },
+  {
     "category": "General & Harness Platform",
     "topic_id": 613,
     "title": "Setup 99.99% SLO using SRM",
@@ -537,6 +548,17 @@
     "solved_at": null,
     "first_engagement_at": "2026-06-05T14:06:41.824Z",
     "time_to_first_engagement": "0.0"
+  },
+  {
+    "category": "General & Harness Platform",
+    "topic_id": 126,
+    "title": "Best burger in NYC?",
+    "topic_created_at": "2026-06-03T16:52:56.596Z",
+    "first_reply_at": "2026-06-25T09:33:41.781Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-25T09:33:41.781Z",
+    "time_to_first_engagement": "520.68"
   },
   {
     "category": "Staff",

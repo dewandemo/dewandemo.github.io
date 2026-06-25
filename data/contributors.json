@@ -10,12 +10,17 @@
     "topics_participated": 5
   },
   {
+    "username": "gaurav.soni",
+    "reply_count": 3,
+    "topics_participated": 3
+  },
+  {
     "username": "nemo",
     "reply_count": 3,
     "topics_participated": 3
   },
   {
-    "username": "gaurav.soni",
+    "username": "bharat.nedungadi",
     "reply_count": 1,
     "topics_participated": 1
   },
@@ -26,11 +31,6 @@
   },
   {
     "username": "richard.paul",
-    "reply_count": 1,
-    "topics_participated": 1
-  },
-  {
-    "username": "bharat.nedungadi",
     "reply_count": 1,
     "topics_participated": 1
   },
