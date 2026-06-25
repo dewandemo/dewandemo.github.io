@@ -8,9 +8,9 @@
   },
   {
     "category": "Continuous Integration",
-    "total_topics": 13,
+    "total_topics": 14,
     "solved_topics": 7,
-    "solve_rate_pct": "53.8",
+    "solve_rate_pct": "50.0",
     "avg_hours_to_solve": "45.0"
   },
   {
@@ -49,14 +49,14 @@
     "avg_hours_to_solve": null
   },
   {
-    "category": "Events",
+    "category": "Open Source",
     "total_topics": 3,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null
   },
   {
-    "category": "Open Source",
+    "category": "Events",
     "total_topics": 3,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
