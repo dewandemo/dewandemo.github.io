@@ -1,6 +1,17 @@
 [
   {
     "category": "Infrastructure as Code Management",
+    "topic_id": 712,
+    "title": "Where should OPA policies be enforced in an IaC pipeline",
+    "topic_created_at": "2026-06-29T16:05:44.294Z",
+    "first_reply_at": "2026-06-29T19:10:25.865Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-29T19:10:25.865Z",
+    "time_to_first_engagement": "3.08"
+  },
+  {
+    "category": "Infrastructure as Code Management",
     "topic_id": 709,
     "title": "How should teams structure workspaces in Harness IaCM",
     "topic_created_at": "2026-06-29T15:18:40.303Z",
