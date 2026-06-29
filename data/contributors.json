@@ -6,11 +6,21 @@
   },
   {
     "username": "adeebvaliulla",
-    "reply_count": 5,
-    "topics_participated": 5
+    "reply_count": 6,
+    "topics_participated": 6
+  },
+  {
+    "username": "richard.paul",
+    "reply_count": 4,
+    "topics_participated": 3
   },
   {
     "username": "gaurav.soni",
+    "reply_count": 3,
+    "topics_participated": 3
+  },
+  {
+    "username": "milind.patel",
     "reply_count": 3,
     "topics_participated": 3
   },
@@ -20,17 +30,7 @@
     "topics_participated": 3
   },
   {
-    "username": "milind.patel",
-    "reply_count": 2,
-    "topics_participated": 2
-  },
-  {
-    "username": "richard.paul",
-    "reply_count": 2,
-    "topics_participated": 2
-  },
-  {
-    "username": "brijesh",
+    "username": "Samriddha",
     "reply_count": 1,
     "topics_participated": 1
   },
@@ -40,7 +40,7 @@
     "topics_participated": 1
   },
   {
-    "username": "Samriddha",
+    "username": "brijesh",
     "reply_count": 1,
     "topics_participated": 1
   },

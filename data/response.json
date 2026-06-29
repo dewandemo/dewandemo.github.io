@@ -1,6 +1,17 @@
 [
   {
     "category": "Infrastructure as Code Management",
+    "topic_id": 709,
+    "title": "How should teams structure workspaces in Harness IaCM",
+    "topic_created_at": "2026-06-29T15:18:40.303Z",
+    "first_reply_at": "2026-06-29T15:55:37.538Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-29T15:55:37.538Z",
+    "time_to_first_engagement": "0.62"
+  },
+  {
+    "category": "Infrastructure as Code Management",
     "topic_id": 707,
     "title": "Onboarding data pipelines using Harness IaCM and IDP",
     "topic_created_at": "2026-06-26T15:37:04.553Z",
