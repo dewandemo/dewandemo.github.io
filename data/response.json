@@ -1,5 +1,27 @@
 [
   {
+    "category": "AI SRE",
+    "topic_id": 719,
+    "title": "Does Harness AI SRE automatically rollback deployments",
+    "topic_created_at": "2026-06-30T17:25:47.815Z",
+    "first_reply_at": "2026-06-30T20:31:05.913Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-30T20:31:05.913Z",
+    "time_to_first_engagement": "3.09"
+  },
+  {
+    "category": "Infrastructure as Code Management",
+    "topic_id": 717,
+    "title": "Should teams approve IaCM drift manually",
+    "topic_created_at": "2026-06-30T16:03:08.932Z",
+    "first_reply_at": "2026-06-30T19:05:42.739Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-06-30T19:05:42.739Z",
+    "time_to_first_engagement": "3.04"
+  },
+  {
     "category": "Infrastructure as Code Management",
     "topic_id": 712,
     "title": "Where should OPA policies be enforced in an IaC pipeline",
