@@ -23,9 +23,9 @@
   {
     "category": "Infrastructure as Code Management",
     "total_topics": 7,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
+    "solved_topics": 2,
+    "solve_rate_pct": "28.6",
+    "avg_hours_to_solve": "22.5"
   },
   {
     "category": "Staff",
