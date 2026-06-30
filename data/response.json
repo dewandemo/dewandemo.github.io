@@ -39,7 +39,7 @@
     "topic_created_at": "2026-06-26T13:52:20.266Z",
     "first_reply_at": "2026-06-26T13:56:26.512Z",
     "first_reaction_at": null,
-    "solved_at": null,
+    "solved_at": "2026-06-30T15:33:47.939Z",
     "first_engagement_at": "2026-06-26T13:56:26.512Z",
     "time_to_first_engagement": "0.07"
   },
@@ -61,7 +61,7 @@
     "topic_created_at": "2026-06-25T10:16:02.606Z",
     "first_reply_at": "2026-06-25T13:54:55.097Z",
     "first_reaction_at": null,
-    "solved_at": null,
+    "solved_at": "2026-06-30T15:34:19.678Z",
     "first_engagement_at": "2026-06-25T13:54:55.097Z",
     "time_to_first_engagement": "3.65"
   },
@@ -83,7 +83,7 @@
     "topic_created_at": "2026-06-25T09:22:35.173Z",
     "first_reply_at": "2026-06-25T12:25:32.217Z",
     "first_reaction_at": "2026-06-25T09:28:54.898Z",
-    "solved_at": null,
+    "solved_at": "2026-06-30T16:55:44.324Z",
     "first_engagement_at": "2026-06-25T09:28:54.898Z",
     "time_to_first_engagement": "0.11"
   },
