@@ -1,5 +1,38 @@
 [
   {
+    "category": "General & Harness Platform",
+    "topic_id": 795,
+    "title": "How do I set up FME",
+    "topic_created_at": "2026-07-02T19:52:14.552Z",
+    "first_reply_at": "2026-07-02T22:57:26.787Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-02T22:57:26.787Z",
+    "time_to_first_engagement": "3.09"
+  },
+  {
+    "category": "Security & Compliance",
+    "topic_id": 794,
+    "title": "Where can I find Harness' information on existing CVEs",
+    "topic_created_at": "2026-07-02T19:47:27.590Z",
+    "first_reply_at": "2026-07-02T22:52:41.995Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-02T22:52:41.995Z",
+    "time_to_first_engagement": "3.09"
+  },
+  {
+    "category": "AI SRE",
+    "topic_id": 793,
+    "title": "Getting started with Harness AI SRE for Traceable customers",
+    "topic_created_at": "2026-07-02T19:36:04.798Z",
+    "first_reply_at": "2026-07-02T22:41:15.958Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-02T22:41:15.958Z",
+    "time_to_first_engagement": "3.09"
+  },
+  {
     "category": "AI SRE",
     "topic_id": 719,
     "title": "Does Harness AI SRE automatically rollback deployments",
