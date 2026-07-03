@@ -11,17 +11,6 @@
     "time_to_first_engagement": "3.09"
   },
   {
-    "category": "General & Harness Platform",
-    "topic_id": 795,
-    "title": "How do I set up FME",
-    "topic_created_at": "2026-07-02T19:52:14.552Z",
-    "first_reply_at": "2026-07-02T22:57:26.787Z",
-    "first_reaction_at": null,
-    "solved_at": null,
-    "first_engagement_at": "2026-07-02T22:57:26.787Z",
-    "time_to_first_engagement": "3.09"
-  },
-  {
     "category": "Security & Compliance",
     "topic_id": 794,
     "title": "Where can I find Harness' information on existing CVEs",
