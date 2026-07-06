@@ -8,16 +8,16 @@
   },
   {
     "category": "Continuous Delivery & GitOps",
-    "total_topics": 17,
+    "total_topics": 19,
     "solved_topics": 2,
-    "solve_rate_pct": "11.8",
+    "solve_rate_pct": "10.5",
     "avg_hours_to_solve": "0.0"
   },
   {
     "category": "Continuous Integration",
-    "total_topics": 16,
+    "total_topics": 17,
     "solved_topics": 9,
-    "solve_rate_pct": "56.3",
+    "solve_rate_pct": "52.9",
     "avg_hours_to_solve": "49.2"
   },
   {
@@ -35,21 +35,7 @@
     "avg_hours_to_solve": null
   },
   {
-    "category": "Events",
-    "total_topics": 4,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
     "category": "Internal Developer Portal",
-    "total_topics": 4,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "Artifact Registry",
     "total_topics": 4,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
@@ -63,14 +49,35 @@
     "avg_hours_to_solve": null
   },
   {
-    "category": "Architecture and Design",
-    "total_topics": 3,
-    "solved_topics": 1,
-    "solve_rate_pct": "33.3",
-    "avg_hours_to_solve": "125.3"
+    "category": "Artifact Registry",
+    "total_topics": 4,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Database DevOps",
+    "total_topics": 4,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "Events",
+    "total_topics": 4,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
   },
   {
     "category": "Open Source",
+    "total_topics": 3,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
+  },
+  {
+    "category": "AI Test Automation",
     "total_topics": 3,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
@@ -84,21 +91,14 @@
     "avg_hours_to_solve": "97.7"
   },
   {
+    "category": "Architecture and Design",
+    "total_topics": 3,
+    "solved_topics": 1,
+    "solve_rate_pct": "33.3",
+    "avg_hours_to_solve": "125.3"
+  },
+  {
     "category": "AI DLC Insights",
-    "total_topics": 2,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "AI Test Automation",
-    "total_topics": 2,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "Database DevOps",
     "total_topics": 2,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
