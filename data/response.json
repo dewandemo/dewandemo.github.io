@@ -1,5 +1,16 @@
 [
   {
+    "category": "AI Test Automation",
+    "topic_id": 828,
+    "title": "Flaky test with AI Test Automation",
+    "topic_created_at": "2026-07-06T16:35:24.532Z",
+    "first_reply_at": "2026-07-06T19:40:42.453Z",
+    "first_reaction_at": null,
+    "solved_at": "2026-07-06T19:55:26.794Z",
+    "first_engagement_at": "2026-07-06T19:40:42.453Z",
+    "time_to_first_engagement": "3.09"
+  },
+  {
     "category": "Continuous Integration",
     "topic_id": 822,
     "title": "[CD/CI test] CI build cache not restoring between steps \u2014 how to share cache across stages?",
