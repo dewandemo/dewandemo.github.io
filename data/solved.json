@@ -1,5 +1,12 @@
 [
   {
+    "category": "Continuous Delivery & GitOps",
+    "total_topics": 20,
+    "solved_topics": 2,
+    "solve_rate_pct": "10.0",
+    "avg_hours_to_solve": "0.0"
+  },
+  {
     "category": "General & Harness Platform",
     "total_topics": 19,
     "solved_topics": 1,
@@ -7,17 +14,10 @@
     "avg_hours_to_solve": "0.5"
   },
   {
-    "category": "Continuous Delivery & GitOps",
-    "total_topics": 19,
-    "solved_topics": 2,
-    "solve_rate_pct": "10.5",
-    "avg_hours_to_solve": "0.0"
-  },
-  {
     "category": "Continuous Integration",
-    "total_topics": 17,
+    "total_topics": 18,
     "solved_topics": 9,
-    "solve_rate_pct": "52.9",
+    "solve_rate_pct": "50.0",
     "avg_hours_to_solve": "49.2"
   },
   {
@@ -28,22 +28,22 @@
     "avg_hours_to_solve": "30.4"
   },
   {
-    "category": "Staff",
+    "category": "Database DevOps",
     "total_topics": 5,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null
   },
   {
-    "category": "AI Test Automation",
-    "total_topics": 4,
-    "solved_topics": 1,
-    "solve_rate_pct": "25.0",
-    "avg_hours_to_solve": "3.3"
+    "category": "Internal Developer Portal",
+    "total_topics": 5,
+    "solved_topics": 0,
+    "solve_rate_pct": "0.0",
+    "avg_hours_to_solve": null
   },
   {
-    "category": "Database DevOps",
-    "total_topics": 4,
+    "category": "Staff",
+    "total_topics": 5,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
     "avg_hours_to_solve": null
@@ -56,7 +56,14 @@
     "avg_hours_to_solve": null
   },
   {
-    "category": "Internal Developer Portal",
+    "category": "AI Test Automation",
+    "total_topics": 4,
+    "solved_topics": 1,
+    "solve_rate_pct": "25.0",
+    "avg_hours_to_solve": "3.3"
+  },
+  {
+    "category": "AI SRE",
     "total_topics": 4,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
@@ -64,13 +71,6 @@
   },
   {
     "category": "Artifact Registry",
-    "total_topics": 4,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
-  },
-  {
-    "category": "AI SRE",
     "total_topics": 4,
     "solved_topics": 0,
     "solve_rate_pct": "0.0",
@@ -91,17 +91,17 @@
     "avg_hours_to_solve": null
   },
   {
+    "category": "Feature Management & Experimentation",
+    "total_topics": 3,
+    "solved_topics": 1,
+    "solve_rate_pct": "33.3",
+    "avg_hours_to_solve": "20.2"
+  },
+  {
     "category": "Architecture and Design",
     "total_topics": 3,
     "solved_topics": 1,
     "solve_rate_pct": "33.3",
     "avg_hours_to_solve": "125.3"
-  },
-  {
-    "category": "AI DLC Insights",
-    "total_topics": 2,
-    "solved_topics": 0,
-    "solve_rate_pct": "0.0",
-    "avg_hours_to_solve": null
   }
 ]
