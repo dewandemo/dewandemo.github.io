@@ -1,5 +1,60 @@
 [
   {
+    "category": "Internal Developer Portal",
+    "topic_id": 844,
+    "title": "Scaffolding a new service from a template in the Internal Developer Portal",
+    "topic_created_at": "2026-07-07T13:22:59.311Z",
+    "first_reply_at": "2026-07-07T16:28:17.190Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-07T16:28:17.190Z",
+    "time_to_first_engagement": "3.09"
+  },
+  {
+    "category": "Feature Management & Experimentation",
+    "topic_id": 843,
+    "title": "Feature flag targeting: roll out to 5% of users in a specific region only",
+    "topic_created_at": "2026-07-07T13:22:55.792Z",
+    "first_reply_at": "2026-07-07T16:28:19.781Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-07T16:28:19.781Z",
+    "time_to_first_engagement": "3.09"
+  },
+  {
+    "category": "Database DevOps",
+    "topic_id": 842,
+    "title": "Rolling back a failed schema migration mid-deployment \u2014 safest approach?",
+    "topic_created_at": "2026-07-07T13:22:52.256Z",
+    "first_reply_at": "2026-07-07T16:28:21.275Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-07T16:28:21.275Z",
+    "time_to_first_engagement": "3.09"
+  },
+  {
+    "category": "Continuous Integration",
+    "topic_id": 841,
+    "title": "CI build failing intermittently with 'no space left on device' on the build step",
+    "topic_created_at": "2026-07-07T13:22:48.712Z",
+    "first_reply_at": "2026-07-07T16:28:17.623Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-07T16:28:17.623Z",
+    "time_to_first_engagement": "3.09"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "topic_id": 840,
+    "title": "Blue-green deployment: how to route only 10% traffic to green before full cutover?",
+    "topic_created_at": "2026-07-07T13:22:45.174Z",
+    "first_reply_at": "2026-07-07T16:28:03.979Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-07T16:28:03.979Z",
+    "time_to_first_engagement": "3.09"
+  },
+  {
     "category": "AI Test Automation",
     "topic_id": 828,
     "title": "Flaky test with AI Test Automation",
