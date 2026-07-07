@@ -1,5 +1,16 @@
 [
   {
+    "category": "Continuous Delivery & GitOps",
+    "topic_id": 849,
+    "title": "Post-republish test: CD deployment freeze window best practices?",
+    "topic_created_at": "2026-07-07T17:57:59.515Z",
+    "first_reply_at": "2026-07-07T19:57:53.788Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-07T19:57:53.788Z",
+    "time_to_first_engagement": "2.0"
+  },
+  {
     "category": "Internal Developer Portal",
     "topic_id": 844,
     "title": "Scaffolding a new service from a template in the Internal Developer Portal",
