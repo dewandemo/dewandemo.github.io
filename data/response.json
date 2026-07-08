@@ -11,6 +11,17 @@
     "time_to_first_engagement": "0.02"
   },
   {
+    "category": "General & Harness Platform",
+    "topic_id": 851,
+    "title": "This is a test topic",
+    "topic_created_at": "2026-07-08T17:40:19.026Z",
+    "first_reply_at": "2026-07-08T20:45:22.577Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-08T20:45:22.577Z",
+    "time_to_first_engagement": "3.08"
+  },
+  {
     "category": "Continuous Delivery & GitOps",
     "topic_id": 849,
     "title": "Post-republish test: CD deployment freeze window best practices?",
