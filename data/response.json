@@ -1,5 +1,16 @@
 [
   {
+    "category": "Web Application & API Protection",
+    "topic_id": 859,
+    "title": "How Harness WAAP protects internal API traffic",
+    "topic_created_at": "2026-07-09T16:18:25.216Z",
+    "first_reply_at": "2026-07-09T16:21:32.610Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-09T16:21:32.610Z",
+    "time_to_first_engagement": "0.05"
+  },
+  {
     "category": "Feature Management & Experimentation",
     "topic_id": 858,
     "title": "Percentage rollout of a feature flag with guardrail metrics",
