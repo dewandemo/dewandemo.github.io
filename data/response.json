@@ -1,5 +1,49 @@
 [
   {
+    "category": "Feature Management & Experimentation",
+    "topic_id": 858,
+    "title": "Percentage rollout of a feature flag with guardrail metrics",
+    "topic_created_at": "2026-07-09T12:27:06.482Z",
+    "first_reply_at": "2026-07-09T12:29:16.291Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-09T12:29:16.291Z",
+    "time_to_first_engagement": "0.04"
+  },
+  {
+    "category": "Security & Compliance",
+    "topic_id": 857,
+    "title": "Block pipeline when image has critical CVEs using policy",
+    "topic_created_at": "2026-07-09T12:26:25.820Z",
+    "first_reply_at": "2026-07-09T12:28:34.572Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-09T12:28:34.572Z",
+    "time_to_first_engagement": "0.04"
+  },
+  {
+    "category": "Cloud & AI Cost Management",
+    "topic_id": 856,
+    "title": "Best way to cut idle EKS spend on dev clusters overnight",
+    "topic_created_at": "2026-07-09T12:25:45.020Z",
+    "first_reply_at": "2026-07-09T12:27:50.556Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-09T12:27:50.556Z",
+    "time_to_first_engagement": "0.03"
+  },
+  {
+    "category": "Continuous Delivery & GitOps",
+    "topic_id": 855,
+    "title": "Canary rollout keeps failing health check before promotion",
+    "topic_created_at": "2026-07-09T12:25:04.196Z",
+    "first_reply_at": "2026-07-09T12:27:14.940Z",
+    "first_reaction_at": null,
+    "solved_at": null,
+    "first_engagement_at": "2026-07-09T12:27:14.940Z",
+    "time_to_first_engagement": "0.04"
+  },
+  {
     "category": "Artifact Registry",
     "topic_id": 852,
     "title": "Testing Workflow - Harness AR",
