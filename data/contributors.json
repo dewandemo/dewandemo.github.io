@@ -10,11 +10,6 @@
     "topics_participated": 7
   },
   {
-    "username": "Ankit",
-    "reply_count": 4,
-    "topics_participated": 4
-  },
-  {
     "username": "milind.patel",
     "reply_count": 4,
     "topics_participated": 4
@@ -26,6 +21,11 @@
   },
   {
     "username": "gaurav.soni",
+    "reply_count": 3,
+    "topics_participated": 3
+  },
+  {
+    "username": "Ankit",
     "reply_count": 3,
     "topics_participated": 3
   },
