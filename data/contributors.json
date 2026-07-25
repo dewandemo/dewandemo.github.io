@@ -5,11 +5,6 @@
     "topics_participated": 4
   },
   {
-    "username": "gaurav.soni",
-    "reply_count": 3,
-    "topics_participated": 3
-  },
-  {
     "username": "milind.patel",
     "reply_count": 3,
     "topics_participated": 3
@@ -23,6 +18,11 @@
     "username": "adeebvaliulla",
     "reply_count": 2,
     "topics_participated": 2
+  },
+  {
+    "username": "abhi-dev91",
+    "reply_count": 1,
+    "topics_participated": 1
   },
   {
     "username": "Samriddha",
@@ -41,11 +41,6 @@
   },
   {
     "username": "jguasch",
-    "reply_count": 1,
-    "topics_participated": 1
-  },
-  {
-    "username": "abhi-dev91",
     "reply_count": 1,
     "topics_participated": 1
   }
