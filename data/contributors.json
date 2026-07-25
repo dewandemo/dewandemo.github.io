@@ -1,13 +1,8 @@
 [
   {
     "username": "dewan",
-    "reply_count": 5,
+    "reply_count": 4,
     "topics_participated": 4
-  },
-  {
-    "username": "milind.patel",
-    "reply_count": 3,
-    "topics_participated": 3
   },
   {
     "username": "richard.paul",
@@ -16,6 +11,11 @@
   },
   {
     "username": "adeebvaliulla",
+    "reply_count": 2,
+    "topics_participated": 2
+  },
+  {
+    "username": "milind.patel",
     "reply_count": 2,
     "topics_participated": 2
   },
