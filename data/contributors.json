@@ -5,18 +5,13 @@
     "topics_participated": 3
   },
   {
+    "username": "abhi-dev91",
+    "reply_count": 1,
+    "topics_participated": 1
+  },
+  {
     "username": "adeebvaliulla",
-    "reply_count": 2,
-    "topics_participated": 2
-  },
-  {
-    "username": "milind.patel",
-    "reply_count": 2,
-    "topics_participated": 2
-  },
-  {
-    "username": "richard.paul",
-    "reply_count": 2,
+    "reply_count": 1,
     "topics_participated": 1
   },
   {
@@ -25,12 +20,7 @@
     "topics_participated": 1
   },
   {
-    "username": "abhi-dev91",
-    "reply_count": 1,
-    "topics_participated": 1
-  },
-  {
-    "username": "jguasch",
+    "username": "milind.patel",
     "reply_count": 1,
     "topics_participated": 1
   }
